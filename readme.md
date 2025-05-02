@@ -90,7 +90,10 @@ conda activate tec-env
 pip install -r requirements.txt
 ```
 
-### 3. Add your `.zip` files to a file in your computer (Ex /Users/yourname/Desktop/TECData/) and update line 14 to match the directory!
+### 3. Add your `.zip` files to a file in your computer (Ex /Users/yourname/Desktop/TECData/) and update line 14 in ripit.py to match the directory
+```
+input_directory = "/Users/Desktop/Data" #Change this to a folder with all the Zipped RINEX files
+```
 
 
 ### 4. Run the script:
@@ -109,6 +112,7 @@ python ripit.py
 ADD IMAGE HERE
 
 This is data mapped from one RINEX file as a example, but you can run the program as many files you have in the folder!
+
 ## 🧠 Notes & Future Work
 
 - Most upcoming - Map out the data via Dot products and vector algebra to maintain a more '3D' interpertation of the data
@@ -118,5 +122,5 @@ This is data mapped from one RINEX file as a example, but you can run the progra
 
 ## 📬 Contact
 
-Feel free to reach out with questions or collaboration ideas :3  
+Feel free to reach out with questions or collaboration ideas   
 Email: igorlucic42@gmail.com
