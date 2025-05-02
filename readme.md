@@ -10,7 +10,7 @@ In early 2025, I had the opportunity to travel to Alaska to conduct a small-scal
 
 ![Image](https://github.com/user-attachments/assets/946cf954-5aa5-4d04-97a0-b321a7740372)
 - Trimble NetR9: A high-precision GNSS reference receiver with dual-frequency logging support.
-
+![Image](https://github.com/user-attachments/assets/3d63e7b7-aff2-4c67-9817-45ecd992d9e0)
 - Javad Triumph-2: Lightweight GNSS receiver suitable for mobile or backpack deployments.
 
 Both receivers were configured to record RINEX-format observation files at a 30-second interval, with dual-frequency (L1/L2) measurements necessary for TEC derivation.
