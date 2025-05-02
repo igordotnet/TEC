@@ -113,14 +113,14 @@ ADD IMAGE HERE
 
 This is data mapped from one RINEX file as a example, but you can run the program as many files you have in the folder!
 
-## 🧠 Notes & Future Work
+## Notes & Future Work
 
 - Most upcoming - Map out the data via Dot products and vector algebra to maintain a more '3D' interpertation of the data
 - Currently supports only GPS L1C observations.
 - Expandable to support more GNSS systems and elevation-angle corrections.
 - Add automatic elevation mask filtering and TEC calibration constants.
 
-## 📬 Contact
+## Contact
 
 Feel free to reach out with questions or collaboration ideas   
 Email: igorlucic42@gmail.com
