@@ -4,14 +4,14 @@
 
 ## Background
 
-In March of 2025, I had the amaizing opportunity to travel to Alaska to conduct a small-scale ionospheric study using dual-frequency GNSS receivers. This was a project under the University of Houston's Physics department aimed at understanding how Total Electron Content (TEC) varies with time and location in the upper atmosphere with a special focus on how they interacted under a Aurora Borealis event. The harsh yet beautiful landscape of Alaska provided a perfect setting with unique remote, open-sky visibility, and minimal interference. This repository documents the workflow I followed from setting up the equipment to extracting TEC values from raw GNSS observation files, in hopes it can guide the next generation of UH's Undergraduate Student Research Instrument Project (USIP)
+In March of 2025, I had the amazing opportunity to travel to Alaska to conduct a small-scale ionospheric study using dual-frequency GNSS receivers. This was a project under the University of Houston's Physics department aimed at understanding how Total Electron Content (TEC) varies with time and location in the upper atmosphere with a special focus on how they interacted under a Aurora Borealis event. The harsh yet beautiful landscape of Alaska provided a perfect setting with unique remote, open-sky visibility, and minimal interference. This repository documents the workflow I followed from setting up the equipment to extracting TEC values from raw GNSS observation files, in hopes it can guide the next generation of UH's Undergraduate Student Research Instrument Project. (USIP)
 
 ## Section 1: Equipment Used
 
 ![Image](https://github.com/user-attachments/assets/946cf954-5aa5-4d04-97a0-b321a7740372)
-- Trimble NetR9: A high-precision GNSS reference receiver with dual-frequency logging support.
+- Trimble NetR9: High-precision GNSS reference receiver with dual-frequency logging support
 ![Image](https://github.com/user-attachments/assets/3d63e7b7-aff2-4c67-9817-45ecd992d9e0)
-- Javad Triumph-2: Lightweight GNSS receiver suitable for mobile or backpack deployments.
+- Javad Triumph-2: Lightweight GNSS receiver suitable for mobile or backpack deployments
 
 - Extension cords
 
@@ -19,9 +19,9 @@ In March of 2025, I had the amaizing opportunity to travel to Alaska to conduct 
 
 - Power over Ethernet power connector
 
-- Laptop (Widows or Mac)
+- Laptop (Macbook)
 
-- (Optional) USB C to RJ45 adapter
+- USB C to RJ45 adapter
  
 Both receivers were configured to record RINEX-format observation files (version 3.04) at a 30-second interval, with dual-frequency (L1/L2) measurements necessary for TEC derivation.
 
@@ -30,14 +30,14 @@ Both receivers were configured to record RINEX-format observation files (version
 ### Trimble NetR9
 1. Mount the receiver securely with a clear sky view.
 2. Connect an external power supply to the Power over Ethernet connector and use a CAT 6 cable to connect to the Trimble.
-3. Power on the Trimble and use the arrows on the device to search for the IP Address
-4. Turn off the WiFi on your device and connect a CAT 6 network cable to the Trimble
-5. Type in the IP Address onto a web browser (http://169.254.1.0/)
+3. Power on the Trimble and use the arrows on the device to search for the IP Address.
+4. Turn off the WiFi on your device and connect a CAT 6 network cable to the Trimble.
+5. Type in the IP Address onto a web browser. (http://169.254.1.0/)
 6. Configure logging via Trimble Web UI:
    - Set sample rate (e.g. 30s)
    - Enable dual-frequency logging
    - Output format: RINEX 3.04
-7. When everything is set to log, at your own discretion, disconnect the laptop and network cable and you may now leave the Trimble to collect data
+7. When everything is set to log, at your own discretion, disconnect the laptop and network cable and you may now leave the Trimble to collect data.
 
 ### Javad Triumph-2
 1. Mount the receiver securely with a clear sky view.
@@ -52,17 +52,16 @@ Both receivers were configured to record RINEX-format observation files (version
 
 ## Section 3: Collecting the Data
 
-<img width="578" alt="Image" src="https://github.com/user-attachments/assets/a7654c6e-1635-4722-ad5e-a280d6b24ba0" />
+INSERT PICTURE
 
 This is what your data should look like when you collect it. It basically lets us know: 
 - What has collected the Data (Ex Trimble)
 - Where it was (Lat 64, Long -14)
 - When this is taking place (Noon on March 9th 2025)
-  
-And of course the satellite data 
+And of course the satellite data:
 - Which satellite (G = GPS (USA) R = GLONASS (Russian) E = Galileo (EU))
 - Time the data was collected
-- L1 and L2 data (Most important!!)
+- L1 and L2 data
 
 
 Retrieval of the data from the machine will be reversal of setup. 
@@ -83,7 +82,7 @@ git clone https://github.com/igordotnet/TEC.git
 cd TEC
 ```
 
-### 2. Install requirements (optional, using Anaconda recommended!):
+### 2. Install requirements (optional, using Anaconda recommended):
 
 ```
 conda create -n tec-env python=3.9
@@ -107,10 +106,9 @@ python ripit.py
 
 ## Sample Plot
 
-<img width="1069" alt="Image" src="https://github.com/user-attachments/assets/72963678-8754-42e7-a5e2-43b48923ca6e" />
+ADD IMAGE HERE
 
 This is data mapped from one RINEX file as a example, but you can run the program as many files you have in the folder!
-
 ## 🧠 Notes & Future Work
 
 - Most upcoming - Map out the data via Dot products and vector algebra to maintain a more '3D' interpertation of the data
