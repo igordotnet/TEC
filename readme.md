@@ -1,6 +1,6 @@
 # TEC Mapping from GNSS Observations
 
-[TECDataMapped.pdf](https://github.com/user-attachments/files/20007652/TECDataMapped.pdf)
+<img width="1031" alt="Image" src="https://github.com/user-attachments/assets/bf916203-e8d4-4247-bdec-89673bd32b41" />
 
 ## Background
 
