@@ -52,7 +52,7 @@ Both receivers were configured to record RINEX-format observation files (version
 
 ## Section 3: Collecting the Data
 
-INSERT PICTURE
+<img width="578" alt="Image" src="https://github.com/user-attachments/assets/76e0b051-3da2-4684-aad0-3aec8198388b" />
 
 This is what your data should look like when you collect it. It basically lets us know: 
 - What has collected the Data (Ex Trimble)
