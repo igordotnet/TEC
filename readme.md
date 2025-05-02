@@ -109,7 +109,7 @@ python ripit.py
 
 ## Sample Plot
 
-ADD IMAGE HERE
+<img width="1069" alt="Image" src="https://github.com/user-attachments/assets/8e2f8029-ab86-41a5-9d73-71a90e17e2a5" />
 
 This is data mapped from one RINEX file as a example, but you can run the program as many files you have in the folder!
 
