@@ -1,6 +1,6 @@
 # TEC Mapping from GNSS Observations
 
-(https://github.com/igordotnet/TEC/blob/main/TECDataMapped.pdf "Total static map of all data collected")
+[TECDataMapped.pdf](https://github.com/user-attachments/files/20007652/TECDataMapped.pdf)
 
 ## Background
 
