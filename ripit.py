@@ -11,8 +11,8 @@ f_L1 = 1575.42e6  # L1 Frequency in Hz
 TEC_coefficient = 40.3 * (f_L1 ** 2)
 
 # Set up working directories
-input_directory = "/Users/igorlucic/Desktop/ATEST/"
-extracted_directory = "/Users/igorlucic/Desktop/ExtData"
+input_directory = "/Users/Desktop/Data" #Change this to a folder with all the Zipped RINEX files
+extracted_directory = "/Users/Desktop/Data" #Change this to a folder where you want the data to go
 os.makedirs(extracted_directory, exist_ok=True)
 
 # Step 1: Extract all ZIP files
