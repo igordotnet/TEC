@@ -40,26 +40,26 @@ Both receivers were configured to record RINEX-format observation files at a 30-
 
 ### 1. Clone the repo:
 
-'''
+```
 git clone https://github.com/yourusername/TEC.git
 cd TEC
-'''
+```
 
 ### 2. Install requirements (optional, using Anaconda recommended):
 
-'''
+```
 conda create -n tec-env python=3.9
 conda activate tec-env
 pip install -r requirements.txt
-'''
+```
 
 ### 3. Add your `.zip` files to the `/ATEST` directory
 
 ### 4. Run the script:
 
-'''
+```
 python ripit.py
-'''
+```
 
 ### 5. Output:
 - Extracted `.rnx` files stored in `/extracted_rinex_files`
