@@ -58,6 +58,7 @@ This is what your data should look like when you collect it. It basically lets u
 - What has collected the Data (Ex Trimble)
 - Where it was (Lat 64, Long -14)
 - When this is taking place (Noon on March 9th 2025)
+  
 And of course the satellite data 
 - Which satellite (G = GPS (USA) R = GLONASS (Russian) E = Galileo (EU))
 - Time the data was collected
@@ -106,9 +107,10 @@ python ripit.py
 
 ## Sample Plot
 
-ADD IMAGE HERE
+<img width="1069" alt="Image" src="https://github.com/user-attachments/assets/72963678-8754-42e7-a5e2-43b48923ca6e" />
 
 This is data mapped from one RINEX file as a example, but you can run the program as many files you have in the folder!
+
 ## 🧠 Notes & Future Work
 
 - Most upcoming - Map out the data via Dot products and vector algebra to maintain a more '3D' interpertation of the data
