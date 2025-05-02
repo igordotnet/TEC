@@ -1,5 +1,7 @@
 # TEC Mapping from GNSS Observations
 
+![alt text](https://github.com/igordotnet/TEC/blob/main/TECDataMapped.pdf "Total static map of all data collected")
+
 ## Background
 
 In early 2025, I had the opportunity to travel to Alaska to conduct a small-scale ionospheric study using dual-frequency GNSS receivers. This was a personal research project aimed at understanding how Total Electron Content (TEC) varies with time and location in the upper atmosphere. The harsh yet beautiful landscape of Alaska provided a perfect setting — remote, open-sky visibility, and minimal interference. This repository documents the workflow I followed — from setting up the equipment to extracting TEC values from raw GNSS observation files.
